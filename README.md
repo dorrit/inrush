@@ -14,7 +14,7 @@ npm install inrush
 ```javascript
 import Rush from 'inrush';
 
-const rush = Rush({
+const rush = new Rush({
     maxProcess: 5, // maximum concurrent processes allowed 
     slowestDuration: 3000, // in milliseconds
 });
